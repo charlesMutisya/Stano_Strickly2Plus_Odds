@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "482681014293",
+    "firebase_url": "https://stead2plus.firebaseio.com",
+    "project_id": "stead2plus",
+    "storage_bucket": "stead2plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482681014293:android:7055fec6b5f0dd2e87261c",
+        "android_client_info": {
+          "package_name": "com.hamsoft.betkingadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcJcviOZNQB7AYNbotrWHxnsbp_pmuLYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482681014293:android:2f2eeb174a0c8ccc",
+        "android_client_info": {
+          "package_name": "com.zitano.steadytwoplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcJcviOZNQB7AYNbotrWHxnsbp_pmuLYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482681014293:android:072c4fdd42352d3d",
+        "android_client_info": {
+          "package_name": "com.zitanostar.stead2admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcJcviOZNQB7AYNbotrWHxnsbp_pmuLYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482681014293-hn6onnqvsl9i7rjj5jd1gvu9lctl3p8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
