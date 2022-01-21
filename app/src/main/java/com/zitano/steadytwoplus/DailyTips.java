@@ -49,13 +49,6 @@ loading = view1.findViewById(R.id.txtload);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
-        return view1;
-    }
-
-
-    @Override
-    public void onStart() {
-        super.onStart();
 
         mrecycler= view1.findViewById(R.id.recyclern);
         mrecycler.setHasFixedSize(false);
@@ -98,6 +91,14 @@ loading = view1.findViewById(R.id.txtload);
         };
         mrecycler.setAdapter(firebaseRecyclerAdapter);
         firebaseRecyclerAdapter.startListening();
+
+        return view1;
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
     }
     private InterstitialAd loadIntAdd() {
         AdRequest adRequest= new AdRequest.Builder().build();

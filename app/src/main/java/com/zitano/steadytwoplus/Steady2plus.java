@@ -48,15 +48,6 @@ public class Steady2plus extends Fragment {
         adView= view.findViewById(R.id.adView2P);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
-
-
-        return view;
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
         recyclerView = view.findViewById(R.id.recycler1);
         recyclerView.setHasFixedSize(false);
         manager= new LinearLayoutManager(getContext());
@@ -99,6 +90,15 @@ public class Steady2plus extends Fragment {
         };
         recyclerView.setAdapter(firebaseRecyclerAdapter);
         firebaseRecyclerAdapter.startListening();
+
+
+        return view;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
 
     }
     private InterstitialAd loadIntAdd() {

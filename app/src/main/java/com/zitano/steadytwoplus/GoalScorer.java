@@ -51,14 +51,6 @@ AdView adView;
         adView= view.findViewById(R.id.adViewG);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
-
-        return view;
-    }
-
-
-    @Override
-    public void onStart() {
-        super.onStart();
         mrecycler = view.findViewById(R.id.recycler2);
         mrecycler.setHasFixedSize(false);
         mlinearlayout = new LinearLayoutManager(getContext());
@@ -100,6 +92,15 @@ AdView adView;
         };
         mrecycler.setAdapter(firebaseRecyclerAdapter);
         firebaseRecyclerAdapter.startListening();
+
+
+        return view;
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
 
     }
     private InterstitialAd loadIntAdd() {

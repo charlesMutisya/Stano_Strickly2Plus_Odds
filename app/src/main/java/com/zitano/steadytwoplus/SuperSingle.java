@@ -50,14 +50,7 @@ public class SuperSingle extends Fragment {
         adView= view.findViewById(R.id.adViewS);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
-        return  view;
 
-    }
-
-
-    @Override
-    public void onStart() {
-        super.onStart();
         mrecycler = view.findViewById(R.id.recycler);
         mrecycler.setHasFixedSize(false);
         mlinearlayout = new LinearLayoutManager(getContext());
@@ -99,6 +92,15 @@ public class SuperSingle extends Fragment {
         };
         mrecycler.setAdapter(firebaseRecyclerAdapter);
         firebaseRecyclerAdapter.startListening();
+        return  view;
+
+    }
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
     }
     private InterstitialAd loadIntAdd() {
         AdRequest adRequest= new AdRequest.Builder().build();
